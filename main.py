@@ -7,7 +7,7 @@ from sklearn.preprocessing import LabelEncoder
 
 
 if len(sys.argv) != 3:
-    print('Usage: python z5362885.py <train.tsv> <test.tsv>')
+    print('Usage: python main.py <train.tsv> <test.tsv>')
     sys.exit(1)
 
 ### Part I: Regression ###
